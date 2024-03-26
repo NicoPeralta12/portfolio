@@ -1,0 +1,71 @@
+
+
+.menu{
+   background-color: lightgray;
+ width: 100%;
+ height: 10vh;
+ padding: 0 5%;
+
+
+}
+
+.nav-item:hover{
+    font-size: large;
+}
+
+.main, .projects, .skills{
+    width: 100%;
+    min-height: 90vh;
+    padding: 0 5%;
+}
+
+.projects h2{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.main .img{
+    width: 300px;
+}
+
+.main button{
+    width: 100px;
+}
+
+.name{
+    font-size: 60px;
+}
+
+
+
+.skills{
+    width: 100%;
+    min-height: 50%;
+    padding: 0 5%;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+@media (min-width:400px ) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: none;
+
+    }   
+    
+}
+
+
+@media (min-width:900px) {
+    .skills{
+        display: flex;
+        flex-direction: row;
+    }
+}
